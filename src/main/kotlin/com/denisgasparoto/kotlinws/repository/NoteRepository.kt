@@ -1,6 +1,6 @@
 package com.denisgasparoto.kotlinws.repository
 
 import com.denisgasparoto.kotlinws.model.Note
-import org.springframework.data.repository.CrudRepository
+import org.springframework.data.jpa.repository.JpaRepository
 
-interface NoteRepository : CrudRepository<Note, Long>
+interface NoteRepository : JpaRepository<Note, Long>
